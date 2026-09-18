@@ -11,9 +11,9 @@ Ubicación: Clase Factory en Main.java.
 
 Uso: Se utiliza para crear el certificado dependiendo del tipo de seguro.
 
-SEQUIA → CERT-SEQ
-HELADA → CERT-HEL
-EXCESO_LLUVIA → CERT-EXC
+SEQUIA- CERT-SEQ
+HELADA -CERT-HEL
+EXCESO_LLUVIA - CERT-EXC
 
 De esta forma cada producto tiene su certificado correspondiente.
 
@@ -30,6 +30,7 @@ CORRESPONSAL
 Cada canal tiene su propio número de comprobante y su comisión.
 
 Conclusión
+Los tres patrones ayudan a organizar el programa. Builder crea las pólizas, Abstract Factory crea los certificados y Factory Method maneja los comprobantes de venta.
 
 Los tres patrones ayudan a organizar el programa. Builder crea las pólizas, Abstract Factory crea los certificados y Factory Method maneja los comprobantes de venta.
 
